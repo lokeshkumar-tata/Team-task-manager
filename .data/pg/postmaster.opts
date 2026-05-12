@@ -1,1 +1,0 @@
-/Users/lokeshkumartata/Desktop/Team-task-manager/node_modules/@embedded-postgres/darwin-arm64/native/bin/postgres "-D" "/Users/lokeshkumartata/Desktop/Team-task-manager/.data/pg" "-p" "55432"
