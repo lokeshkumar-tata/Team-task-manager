@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-surface: oklch(0.98 0.01 260);
+  --color-surface-dark: oklch(0.14 0.03 260);
+  --color-accent: oklch(0.55 0.2 265);
+  --color-accent-hover: oklch(0.48 0.22 265);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: linear-gradient(165deg, oklch(0.97 0.02 265) 0%, oklch(0.94 0.03 280) 45%, oklch(0.92 0.04 240) 100%);
+  min-height: 100vh;
+}
+
+.dark body {
+  background: linear-gradient(165deg, oklch(0.14 0.04 265) 0%, oklch(0.12 0.05 280) 100%);
+}
